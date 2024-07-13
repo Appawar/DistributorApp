@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.myflex{
+	display:flex;
+	justify-content:space-between;
+	height:100vh;
+}
+.menubar{
+   flex-basis:20%;	
+}
+.formcontent{
+	flex-basis:70%;
+}
+body{
+	display:flex;
+	justify-content:center;
+	
+	 
+     
+	
+}
+.logincon{
+display:flex;
+justify-content:center;
+align-items:center;
+ width:50%;
+ border:3px solid green;
+ height:300px;
+ margin-top:210px;
+ border-top-right-radius: 60px;
+ border-bottom-left-radius: 60px;
+}
+
+form{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	 
+	 
+	
+}
+input{
+	width:300px;
+	margin:10px;
+	padding:7px;
+	outline:none;
+	
+}
+input[type=text]{
+	
+	 border-radius:4px;
+	 border:none;
+	 border-bottom:3px solid black;
+	 
+}
+
+label{
+	margin-right:236px;
+	margin-top:5px;
+	
+}
